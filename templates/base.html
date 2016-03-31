@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="static/mystyle.css">
+	<title>{{title}}</title>
+	
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		{% block head %}
+		{% endblock %}
+		
+		<ul class="nav nav-pills nav-justified">
+  <li role="presentation"><a href="index.html">{{home}}</a></li>
+  <li role="presentation"><a href="research.html">Research</a></li>
+  <li role="presentation"><a href="aboutme.html">About Me</a></li>
+  <li role="presentation"><a href="login.html">{{login}}</a></li>
+</ul>
+	</header>
+	{% block content %}
+	{% endblock %}
+	<footer>
+		<p>Copyright &copy; Yang Lu <a href="https://www.facebook.com/yang.lu.90">Facebook Page</a>.</p>
+	</footer>	
+</body>
+</html>
