@@ -1,6 +1,4 @@
-body{
-	position: relative;
-}
+
 
 h1{
 	text-align: center;
@@ -58,9 +56,9 @@ li {
 footer{
 
   position: absolute;
-  right: 0;
+  left:0;
+  right:0;
   bottom: 0;
-  left: 0;
   background-color: #efefef;
   text-align: center;
   font-size: 110%;
@@ -101,16 +99,51 @@ div.column img{
 }
 
 
+div.parent1{
+
+width: 100%;
+
+
+}
+
+div.column1{
+	 height: 400px;
+    
+   width: 400px;
+ display: inline-block;
+ margin-left: 16%;
+text-align: center;
+
+
+}
+div.column1 img{
+	 max-width: 100%;
+    max-height: 100%;
+    
+
+}
+
+
+
+
+
+
 #myimage{
 	width: 30%;
 	height:500px;
-	background-color: #e6f2ff;
+	background-color: #99c2ff;
 	color: blue;
 }
 #myimage img{
-
-
+max-width: 70%;
+ max-height: 70%;
+display:block;
+    margin:auto;
+  padding-top: 80px;
 }
+
+
+
 
 
 @media screen and (min-width:600px){
