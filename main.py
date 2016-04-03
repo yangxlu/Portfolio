@@ -14,19 +14,22 @@ class IndexHandler(webapp2.RequestHandler):
         logging.info("GET") 
         if self.request.path == '/aboutme.html':   
             template = JINJA_ENVIRONMENT.get_template('templates/aboutme.html')
-            self.response.write(template.render({'home': 'Home','family':'Family', 'food': 'FOOD', 'login': 'Login', 'title': 'Food Page'}))
+            self.response.write(template.render({'aboutme' : 'ABOUT ME', 'home' : 'Home', 'research' : 'Research', 'login':'Login'}))
         elif self.request.path == '/research.html':   
             template = JINJA_ENVIRONMENT.get_template('templates/research.html')
-            self.response.write(template.render({'home': 'Home','family':'FAMILY', 'food': 'Food', 'login': 'Login', 'title': 'Family Page'}))
+            self.response.write(template.render({'research' : 'RESEARCH', 'aboutme' : 'About Me', 'home' : 'Home', 'login':"Login"}))
+        elif self.request.path == '/feedback.html':   
+            template = JINJA_ENVIRONMENT.get_template('templates/feedback.html')
+            self.response.write(template.render({'research' : 'Research', 'aboutme' : 'About Me', 'home' : 'Home', 'login':"Login"}))
         else:
             template = JINJA_ENVIRONMENT.get_template('templates/index.html')
-            self.response.write(template.render({'home': 'HOME','family':'Family', 'food': 'Food', 'login': 'Login', 'title': 'Homepage'}))
+            self.response.write(template.render({'home': 'HOME', 'aboutme' : 'About Me', 'research' : 'Research', 'login':'Login'}))
 
 class LoginHandler(webapp2.RequestHandler):
     def get(self):
         logging.info("GET")
         template = JINJA_ENVIRONMENT.get_template('templates/login.html')
-        self.response.write(template.render({'home': 'Home','family':'Family', 'food': 'Food', 'login': 'LOGIN', 'title': 'Login Page'}))
+        self.response.write(template.render({'login': 'LOGIN', 'title': 'Login Page', 'home': 'Home', 'aboutme' : 'About Me', 'research' : 'Research'}))
     def post(self):
         nameGuess = self.request.get("name")
         passGuess = self.request.get("pw")

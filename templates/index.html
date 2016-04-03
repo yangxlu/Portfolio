@@ -1,9 +1,26 @@
 {% extends "templates/base.html" %}
 {% block head %}
-<h1> Manganese </h1></br>
-<img src = "static/pic.jpg" alt = "static/alternate.jpg"/>
+
 {% endblock %}
+
 {% block content %} 
-	<p>
-		This is a site about the element manganese and its toxicant properties</p>
+	
+<div class = "parent">
+      <div class="column">
+        <h2>Introduction</h2>
+        <p> <a href = "https://en.wikipedia.org/wiki/Manganese" >Manganese</a> is a chemical element with the abbreviation Mn and an atomic number of 25 on the periodic table. Because it is an element, its scientific name is also manganese, but it also referred to as Manganese(2+); Manganous ion; Manganese(II); Mn2+; Manganese (Mn2+); Manganese ion(2+) (Pubchem). While manganese is only found in trace amounts in the body, it is important in forming connective tissue, bones, blood clotting factors, and sex hormones (“Manganese”). Manganese exists in a variety of oxidation states (+2, +3, +4, +6, and +7), meaning it can form a variety of chemical compounds in the environment (Assem, Holmes, and Levy)</p>
+        <img src = "static/manganese.jpg" alt =" manganese image"/>
+      </div>
+      <div class="column">
+        <h2>Basic Structure</h2>
+        <p>Because Manganese is an element, its chemical structure is simple and molecular geometry is not involved.  As we can see from the periodic table image, Manganese has 25 protons and 30 neutrons, giving it an atomic number of 25 and atomic weight of 55. </p>
+        <img src = "static/atomicnumber.jpg" alt =" periodic table image"/>
+      </div>
+       <div class="column">
+        <h2>A Possible Risk</h2>
+        <p>Excessive amounts of Manganese in the brain causes damage to the central nervous system known as <a href = "https://en.wikipedia.org/wiki/Manganism"> Manganism </a> (Bouabid et al.). Manganese can be absorbed into the body via inhalation of air, consumption of contaminated water, during prenatal care, and during liver failure (Bouabid et al.). The main part of the brain that is targeted is the basal ganglia structure. Disruption of the neural activity within the many subcortical nuclei of the basal ganglia leads to motor, cognitive, and/or emotional disorders (Bouabid et al.). The recommended daily intake of Manganese is 2.3mg/KG for men and 1.8 mg/Kg for women (Bouabid et al.). Below is an image of the brain's transformation from Manganism</p>
+       <img src = "static/manganism.jpg" alt =" image of brain undergoing manganism"/>
+      </div>
+
+</div>	
 {%endblock%}

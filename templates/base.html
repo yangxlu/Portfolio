@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="static/mystyle.css">
 	<title>{{title}}</title>
-	
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -19,17 +18,27 @@
 		{% block head %}
 		{% endblock %}
 		
+		<div id ="wrapper">
+		<div class="image"></div>​
+		<div class = "nav"> 
 		<ul class="nav nav-pills nav-justified">
-  <li role="presentation"><a href="index.html">{{home}}</a></li>
-  <li role="presentation"><a href="research.html">Research</a></li>
-  <li role="presentation"><a href="aboutme.html">About Me</a></li>
-  <li role="presentation"><a href="login.html">{{login}}</a></li>
+  <li class = "active" role="presentation"><a href="index.html">{{home}}</a></li>
+  <li class = "active" role="presentation"><a href="research.html">{{research}}</a></li>
+  <li class = "active" role="presentation"><a href="aboutme.html">{{aboutme}}</a></li>
+  <li class = "active" role="presentation"><a href="login.html">{{login}}</a></li>
 </ul>
+
+</div>
+<div id = "main-image"> <img src = "static/chem1.jpg" alt =" Image"/> </div>
+</div>
+
+
 	</header>
 	{% block content %}
 	{% endblock %}
 	<footer>
-		<p>Copyright &copy; Yang Lu <a href="https://www.facebook.com/yang.lu.90">Facebook Page</a>.</p>
+		<p>Copyright &copy; 2016 Yang Lu <a class = "footer-ig" href="https://www.facebook.com/yang.lu.90">My Facebook</a> <a class = "footer-img" href = "http://umich.edu/"> Umich</a> <a class = "footer-img" href = "https://www.si.umich.edu/programs/courses/206"> SI 206</a>  <a class = "footer-img" href = "feedback.html"> Feedback </a></p>
 	</footer>	
 </body>
+
 </html>
