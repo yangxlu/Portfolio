@@ -1,12 +1,29 @@
 
+a:hover{
+	color:white!important;
+	
+	background-color:  #0039e6 !important;
+}
+
+a:active{
+	
+}
 
 h1{
 	text-align: center;
+	background-color: #ffff4d;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+	margin-top: -20px !important;
+	padding-bottom: 51px !important;
+	padding-top: 30px !important;
+	
 }
 
 
 
-
+div#main-image{
+	margin-top: -50px;
+}
 
 
 #wrapper{
@@ -17,18 +34,20 @@ h1{
 
 div.image {
    content:url(logo.png);
-   width:120px; /*width of your image*/
-   height:120px; /*height of your image*/
+   width:120px; 
+   height:120px; 
    float: left;
+
 }​
 
 
 
 div.nav {
-	border: 1px solid green;
+	border: 1px solid black;
 	
-	position: fixed;  
-
+	position: relative;  
+  
+	overflow: hidden;
 	
   }
 
@@ -36,8 +55,9 @@ div.nav {
 
 div.nav {
 	
-	position: fixed;  
+	position: relative;  
 	overflow: hidden;
+	margin-top: -10px;
   }
 
 ul{
@@ -56,15 +76,17 @@ li {
 
 
 footer{
-	
-  position: absolute;
+
+	width: 100%;
+  position: relative;
   left:0;
   right:0;
   bottom: 0;
   background-color: #efefef;
   text-align: center;
   font-size: 110%;
-   font-family: "Comic Sans MS", cursive, sans-serif;
+   font-family: Verdana, Geneva, sans-serif;
+   padding-bottom: 10px;
 }
 
 footer a:link {
@@ -74,7 +96,7 @@ footer a:link {
     text-decoration: none;
     display: inline-block;
     font-size: 150%;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
 	}
 
 footer a:hover {
@@ -153,14 +175,13 @@ form{
 	padding-top: 20px;
 	font: bold;
 	color: yellow;
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: Verdana, Geneva, sans-serif;
 }
 
 div#iframe {
   text-align:center;
   width:100%;
   background-image: url("background.jpeg");
-  
   margin-top: -20px;
 height: 1000px;
 }
