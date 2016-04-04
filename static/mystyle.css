@@ -151,19 +151,26 @@ div.column1 img{
 
 
 
-
 #myimage{
 	width: 30%;
 	height:500px;
 	background-color: #99c2ff;
 	color: blue;
+	float: left;
 }
 #myimage img{
-max-width: 70%;
- max-height: 70%;
+max-width: 100%;
+ max-height: 100%;
 display:block;
     margin:auto;
   padding-top: 80px;
+}
+
+div#bio{
+	height: 500px;
+	text-align: center;
+	width: 97%;
+
 }
 
 form{
