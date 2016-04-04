@@ -178,10 +178,26 @@ form{
 	font-family: Verdana, Geneva, sans-serif;
 }
 
+#iframe2 h2{
+	padding-top: 20px;
+	font: bold;
+	color: yellow;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+
 div#iframe {
   text-align:center;
   width:100%;
   background-image: url("background.jpeg");
+  margin-top: -20px;
+height: 1000px;
+}
+
+div#iframe2{
+	background-image: url("background2.jpg");
+	text-align:center;
+  width:100%;
   margin-top: -20px;
 height: 1000px;
 }
@@ -192,7 +208,17 @@ iframe{
 }
 
 
+div#facebook{
+	 text-align: center;
+	 padding-top: 10px;
+	 background-color: #F9FAFE;
 
+}
+
+form{
+	background-color: #C6CEFC;
+
+}
 
 
 @media screen and (min-width:600px){
