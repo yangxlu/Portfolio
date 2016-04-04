@@ -114,7 +114,8 @@ background-color: #e6f2ff;
 
 div.column{
 	background-color: #e6f2ff;
-	
+	padding-right: 20px;
+	padding-left: 20px;
 
 }
 
@@ -171,8 +172,8 @@ div#bio{
 	text-align: center;
 	width: 100%;
 	background-color: #6FA2FE;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 	padding-top: 10px;
 	margin-bottom: 20px;
 }
@@ -240,7 +241,7 @@ form{
 }
 
 
-@media screen and (min-width:10px){
+@media screen and (min-width:10px) and (max-width: 600px){
 	div#iframe{
 		height: 300px;
 	}
@@ -264,24 +265,64 @@ footer a:link {
     font-size: 80%;
     font-family: Verdana, Geneva, sans-serif;
 }
+div#myimage{
+	width: 30%;
+	height:100px;
+	background-color: #99c2ff;
+	color: blue;
+	float: left;
+	display: block;
+
 }
-   
+
+div.parent1{
+background-color: #F9FAFE;
+width: 100%;
+margin-top: -20px;
+
+
+}
+
+div.column1{
+	 height: 300px;  
+   width: 300px;
+ display: inline-block;
+ margin-left: 16%;
+text-align: center;
+padding: 30px;
+
+
+}
+div.column1 img{
+	 max-width: 100%;
+    max-height: 100%;
+    
+
+}
+h2{
+	font-size: small !important;
+}
+
+h1{
+	font-size: small !important
+   }
+}
 
 
 
-@media screen and (min-width:600px){
+@media screen and (min-width:600px) and (max-width: 1200px){
 	.footer-img {
 	visibility:hidden;
    }
    iframe{
-	height: 500px;
+	height: 400px;
   width: 70%;
 }
 	div#iframe{
-		height: 700px;
+		height: 600px;
 	}
 	div#iframe2{
-		height: 700px;
+		height: 600px;
 	}
 div.parent1{
 background-color: #F9FAFE;
@@ -311,6 +352,15 @@ footer a:link {
     font-family: Verdana, Geneva, sans-serif;
 }
 
+h2{
+	font-size: large !important;
+}
+
+h1{
+	font-size: x-large !important;
+   }
+
+}
 
 
 
