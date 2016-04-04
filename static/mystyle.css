@@ -1,13 +1,17 @@
 
+li.active a{
+	background-color: blue !important;
+	
+}
+
+
 a:hover{
 	color:white!important;
 	
 	background-color:  #0039e6 !important;
 }
 
-a:active{
-	
-}
+
 
 h1{
 	text-align: center;
@@ -23,6 +27,11 @@ h1{
 
 div#main-image{
 	margin-top: -50px;
+
+}
+
+#main-image img{
+	max-width: 100vw;
 }
 
 
@@ -78,7 +87,7 @@ li {
 footer{
 
 	width: 100%;
-  position: relative;
+  
   left:0;
   right:0;
   bottom: 0;
@@ -118,6 +127,8 @@ div.column{
 	padding-left: 20px;
 
 }
+
+
 
 
 
@@ -304,8 +315,14 @@ h2{
 }
 
 h1{
-	font-size: small !important
+	font-size: small !important;
    }
+
+div.column img{
+	width: 225px;
+	height: 200px; 
+}
+
 }
 
 
