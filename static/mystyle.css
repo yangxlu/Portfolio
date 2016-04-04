@@ -118,8 +118,10 @@ div.column{
 
 }
 
+
+
 div.column img{
-	 margin: auto;
+	
 }
 
 
@@ -147,19 +149,21 @@ div.column1 img{
 
 }
 
-#myimage{
+div#myimage{
 	width: 30%;
 	height:500px;
 	background-color: #99c2ff;
 	color: blue;
 	float: left;
+	display: block;
+
 }
 #myimage img{
 max-width: 100%;
  max-height: 100%;
-display:block;
-    margin:auto;
-  padding-top: 80px;
+
+ 
+ 
 }
 
 div#bio{
@@ -307,7 +311,7 @@ footer a:link {
     font-family: Verdana, Geneva, sans-serif;
 }
 
-}
+
 
 
 @media screen and (min-width:1200px){
@@ -368,6 +372,8 @@ footer a:link {
     font-size: 150%;
     font-family: Verdana, Geneva, sans-serif;
 }
+
+
 
 }
 
