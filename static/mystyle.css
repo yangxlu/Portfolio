@@ -124,20 +124,20 @@ div.column img{
 
 
 div.parent1{
-
+background-color: #F9FAFE;
 width: 100%;
+margin-top: -20px;
 
 
 }
 
 div.column1{
-	 height: 400px;
-    
+	 height: 400px;  
    width: 400px;
  display: inline-block;
  margin-left: 16%;
 text-align: center;
-
+padding-top: 30px;
 
 }
 div.column1 img{
@@ -146,10 +146,6 @@ div.column1 img{
     
 
 }
-
-
-
-
 
 #myimage{
 	width: 30%;
@@ -169,8 +165,12 @@ display:block;
 div#bio{
 	height: 500px;
 	text-align: center;
-	width: 97%;
-
+	width: 100%;
+	background-color: #6FA2FE;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin-bottom: 20px;
 }
 
 form{
@@ -222,17 +222,93 @@ div#facebook{
 
 }
 
+div#youtube{
+	text-align: center;
+	background-color: #ffcb05;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+
 form{
 	background-color: #C6CEFC;
 
 }
 
 
+@media screen and (min-width:10px){
+	div#iframe{
+		height: 300px;
+	}
+	div#iframe2{
+		height: 300px;
+	}
+	iframe{
+	height: 200px;
+  width: 70%;
+
+ }
+.footer-img {
+	visibility:hidden;
+   }
+footer a:link {
+    background-color: #efefef;
+    padding: 1px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 80%;
+    font-family: Verdana, Geneva, sans-serif;
+}
+}
+   
+
+
+
 @media screen and (min-width:600px){
 	.footer-img {
 	visibility:hidden;
    }
+   iframe{
+	height: 500px;
+  width: 70%;
 }
+	div#iframe{
+		height: 700px;
+	}
+	div#iframe2{
+		height: 700px;
+	}
+div.parent1{
+background-color: #F9FAFE;
+width: 100%;
+margin-top: -20px;
+
+
+}
+
+div.column1{
+	 height: 400px;  
+   width: 400px;
+ display: inline-block;
+ margin-left: 16%;
+text-align: center;
+padding-top: 30px;
+
+}
+
+footer a:link {
+    background-color: #efefef;
+    padding: 1px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 150%;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+}
+
 
 @media screen and (min-width:1200px){
 	
@@ -247,5 +323,52 @@ form{
 		margin-left: 2%;
 	
    }   
-  
+   iframe{
+	height: 800px;
+  width: 70%;
+  }
+	div#iframe{
+		height: 1000px;
+	}
+	div#iframe2{
+		height: 1000px;
+	}
+
+div.parent1{
+background-color: #F9FAFE;
+width: 100%;
+margin-top: -20px;
+
+
 }
+
+div.column1{
+	 height: 400px;  
+   width: 400px;
+ display: inline-block;
+ margin-left: 16%;
+text-align: center;
+padding-top: 30px;
+
+}
+
+div.column1 img{
+	 max-width: 100%;
+    max-height: 100%;
+    
+
+}
+
+footer a:link {
+    background-color: #efefef;
+    padding: 1px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 150%;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+}
+
+
