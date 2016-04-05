@@ -1,4 +1,8 @@
 
+li.no a{
+	color:black;
+}
+
 li.active a{
 	background-color: blue !important;
 	
@@ -6,9 +10,9 @@ li.active a{
 
 
 a:hover{
-	color:white!important;
 	
-	background-color:  #0039e6 !important;
+	
+	background-color: #80dfff !important;
 }
 
 
@@ -252,7 +256,7 @@ form{
 }
 
 
-@media screen and (min-width:10px) and (max-width: 600px){
+@media screen and (min-width:10px) and (max-width: 770px){
 	div#iframe{
 		height: 300px;
 	}
@@ -314,20 +318,33 @@ h2{
 	font-size: small !important;
 }
 
-h1{
-	font-size: small !important;
-   }
 
 div.column img{
 	width: 225px;
 	height: 200px; 
 }
 
+div.nav{
+	font-size: 10px;
+	padding-top: 5px;
+}
+
+#main-image img{
+	margin-top: -140px;
+}
+
+h1{
+	font-size: small !important;
+	padding-bottom: 70px !important;
+	
+}
+
+
 }
 
 
 
-@media screen and (min-width:600px) and (max-width: 1200px){
+@media screen and (min-width:770px) and (max-width: 1200px){
 	.footer-img {
 	visibility:hidden;
    }
